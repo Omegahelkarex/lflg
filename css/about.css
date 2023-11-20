@@ -151,6 +151,9 @@
 }
 
 @media screen and (max-width:600px) {
+    .container{
+        width: var(--container-width-sm);
+    }
     .achievement__card{
         grid-template-columns: 1fr 1fr;
         gap: 0;
