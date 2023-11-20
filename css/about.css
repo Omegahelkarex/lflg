@@ -153,21 +153,21 @@
 @media screen and (max-width:600px) {
     .achievement__card{
         grid-template-columns: 1fr 1fr;
-        gap: 0.7rem;
+        gap: 0;
     }
 
     .team__container{
         grid-template-columns: 1fr 1fr;
-        gap: 0.7rem;
+        gap: 0.3rem;
     }
 
     .team__member{
-        padding: 0;
+        padding: 0.3rem;
     }
 
     .team__member p {
         margin-bottom: 1.5rem;
-        
+
     }
     
 }
