@@ -95,9 +95,9 @@ input, textarea {
 
 
 @media screen and (max-width: 1024px) {
-    .contact {
-        /* padding-bottom: 0; */
-    }
+    /* .contact {
+        padding-bottom: 0;
+    } */
 
     .contact__container {
         gap: 1.5rem;
