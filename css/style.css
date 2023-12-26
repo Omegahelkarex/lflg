@@ -32,6 +32,21 @@
 
 }
 
+.light {
+    --color-primary: white;
+    --color-success: #00bf8e;
+    --color-warning: #f7c94b;
+    --color-danger: #f75842;
+    --color-danger-variant: rgba(247,88,66,0.4);
+    --color-white: black;
+    --color-light: rgba(255,255,255,0.7);
+    --color-black: #fff;
+    --color-bg: lightgreen;
+    --color-bg1: yellow;
+    --color-bg2: green;
+
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
@@ -122,6 +137,8 @@ nav{
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
+
+
 .nav__container{
     height: 100%;
     display: flex;
@@ -137,6 +154,7 @@ nav button{
     display: flex;
     align-items: center;
     gap: 4rem;
+    /* padding-left: 30rem; */
 }
 
 .nav__menu a {
@@ -418,7 +436,12 @@ footer ul li a:hover {
     border-radius: 50%;
     border: 1px black ;
     justify-items: left;
+    
 }
+
+
+
+
 
 
 /* responsiveness for tablet */
