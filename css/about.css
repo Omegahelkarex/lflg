@@ -1,3 +1,50 @@
+nav{
+    background: transparent;
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+
+}
+
+.window-scroll {
+    background: var(--color-primary);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+
+
+.nav__container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav button{
+    display: none;
+}
+
+.nav__menu{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    /* padding-left: 30rem; */
+}
+
+.nav__menu a {
+    font-size: 0.9rem;
+    transition: var(--transition) ;
+}
+
+.nav__menu a:hover{
+    color: var(--color-bg2);
+}
+
+
+
+
 .about__achievements {
     margin-top: 3 rem;
 }
