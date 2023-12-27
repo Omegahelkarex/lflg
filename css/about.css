@@ -23,24 +23,7 @@ nav{
 }
 
 nav button{
-    display: none;
-}
-
-.nav__menu{
-    display: flex;
-    align-items: center;
-    gap: 4rem;
-    /* padding-left: 30rem; */
-}
-
-.nav__menu a {
-    font-size: 0.9rem;
-    transition: var(--transition) ;
-}
-
-.nav__menu a:hover{
-    color: var(--color-bg2);
-}
+   
 
 
 
